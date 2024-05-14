@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: linear-gradient(105deg,rgb(231, 182, 182),rgb(44, 92, 196));
+    padding: 60px;  
+    position: relative;
+    border-radius: 10px;
+    height: 60vh ;
+    width: 50vh;
+    box-shadow: 0 0 10px rgba(0,0,0,2);
+    display: flex;
+    flex-direction: column;
+    border:none;
+    border-radius: 15px;
+    display: inline;
+}
+
+
+
+
+
+
+label{
+    color: #ffc;
+    font-size: 0.875rem;
+    vertical-align: 2px;
+    
+}
+
+.formm-group{
+    margin-top: 35px;
+    margin-bottom: 35px;
+
+}
+
+.formm-group::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.login-header{
+    text-align: center;
+    font-family: f;
+    font-size: xx-large ;
+    color: #ffc;
+    margin-top: 0;
+}
+
+.button {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    background: #007bff;
+    border: none;
+    color:#ffc;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    height: auto;
+    flex: 1;
+    width: 175px;
+    text-decoration: underline;
+}
+
+.button:hover{
+    opacity: 0.5;
+}
+
+.forgot-password{
+    text-align: center;
+    position: relative;
+    margin-right: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #ffc;
+}
+
+.sign-container{
+    color: #ffc;
+    font-size: large;
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+}
+
+.sign-link{
+    color: #ffc;
+    text-decoration: none;
+}
+
+
+
